@@ -1,0 +1,50 @@
+{
+  "books": [
+    {
+      "id": 6,
+      "title": "harry potter",
+      "author": "dfdsgerstgretreyre",
+      "year": "2024-10-02",
+      "genre": "iuoeuoti"
+    },
+    {
+      "title": "edfdsdfgt",
+      "author": "rfghfdgh",
+      "genre": "fgfdhgfdgf",
+      "year": "2024-10-04",
+      "id": 7
+    },
+    {
+      "title": "fdsgfdghfdsg",
+      "author": "dsggsfdfgh",
+      "genre": "fdsgffd",
+      "year": "2024-10-03",
+      "id": 8
+    },
+    {
+      "title": "fddhfghfg",
+      "author": "fhfdhg",
+      "genre": "fdhg",
+      "year": "2024-06-04",
+      "id": 9
+    },
+    {
+      "title": "dgfg",
+      "author": "dfds",
+      "genre": "sdgg",
+      "year": "2024-10-04",
+      "id": 10
+    },
+    {
+      "title": "rggdfhfg",
+      "author": "dgfd",
+      "genre": "fgdgdsfh",
+      "year": "2024-10-12",
+      "id": 11
+    }
+  ],
+  "user": {
+    "username": "sanjay97",
+    "password": "ok"
+  }
+}
