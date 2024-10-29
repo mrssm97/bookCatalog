@@ -35,3 +35,7 @@ h2 {
     transform: rotate(360deg);
   }
 }
+.table-wrapper {
+  height: 400px;
+  overflow: auto;
+}

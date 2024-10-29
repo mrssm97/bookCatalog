@@ -57,7 +57,7 @@ export default function BookList() {
       >
         <span className={`loader `}></span>
       </div>
-      <div className={`container fluid ${isLoading ? "d-none" : ""}`}>
+      <div className={`book-list container fluid ${isLoading ? "d-none" : ""}`}>
         <div className="addButton bg-danger text-white p-3">
           <h2 className="text-white">Books</h2>
 
@@ -65,7 +65,7 @@ export default function BookList() {
             Logout
           </button>
         </div>
-        <div className="table-responsive">
+        <div className="table-responsive table-wrapper">
           <table className="table table-bordered">
             <thead>
               <tr>
@@ -106,13 +106,13 @@ export default function BookList() {
               })}
             </tbody>
           </table>
-          <button
-            className="btn btn-primary w-100 d-flex align-items-center justify-content-center"
-            onClick={() => navigate("/add-book")}
-          >
-            <i className="fa fa-add me-3"></i> Add Book
-          </button>
         </div>
+        <button
+          className="btn btn-primary w-100 d-flex align-items-center justify-content-center"
+          onClick={() => navigate("/add-book")}
+        >
+          <i className="fa fa-add me-3"></i> Add Book
+        </button>
       </div>
     </>
   );
